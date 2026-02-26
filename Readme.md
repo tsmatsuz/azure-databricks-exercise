@@ -32,7 +32,8 @@ In the wizard, enable "machine learning" to create ML runtime.
     - Go to your user folder, and then select "Import".
     - Pick up ```HandsOn.dbc``` and submit import.
 - Open the imported notebooks and attach above compute (cluster) in every notebooks. (Select compute (cluster) on the top of notebook.)
-- Please make sure to run "Exercise 01 : Storage Settings (Prepare)", before running other notebooks.
+- Run "Exercise 01 : Storage Settings (Prepare)", before running other notebooks.<br>
+Make sure you have an account with permissions to manage catalogs in Azure Databricks. (e.g., Global Administrators in tenant will have this permission.)
 
 > Note : This requires classic compute culster, and you cannot use Azure trial (free) subscription, because of the limited quota. When you're in Azure free subscription, please promote to pay-as-you-go. (The credit in free subscription will be reserved, even when you transit to pay-as-you-go.)<br>
 > Throughout exercises in this repository, we mostly use All-purpose compute as cluster for experimentation purpose, but please create a Job and use Job compute as cluster for production. (All-purpose compute is more expensive than Job compute.)
