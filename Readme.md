@@ -2,19 +2,19 @@
 
 To run these exercises, follow each instructions below in this readme.
 
-1. [Storage Settings](https://tsmatz.github.io/azure-databricks-exercise/exercise01-blob.html)
-2. [Basics of PySpark, Spark Dataframe, and Spark Machine Learning](https://tsmatz.github.io/azure-databricks-exercise/exercise02-pyspark-dataframe.html)
-3. [Data Transformation and Spark ML Pipeline](https://tsmatz.github.io/azure-databricks-exercise/exercise03-sparkml-pipeline.html)
-4. [Hyper-parameter Tuning](https://tsmatz.github.io/azure-databricks-exercise/exercise04-hyperparams-tuning.html)
-5. [MLeap](https://tsmatz.github.io/azure-databricks-exercise/exercise05-mleap.html) (requires ML runtime)
-6. [Spark PyTorch Distributor](https://tsmatz.github.io/azure-databricks-exercise/exercise06-dnn-distributor.html) (requires ML runtime)
-7. [Structured Streaming (Basic)](https://tsmatz.github.io/azure-databricks-exercise/exercise07-structured-streaming.html)
-8. [Structured Streaming with Azure Event Hubs or Kafka](https://tsmatz.github.io/azure-databricks-exercise/exercise08-streaming-eventhub.html)
-9. [Delta Lake](https://tsmatz.github.io/azure-databricks-exercise/exercise09-databricks-delta.html)
-10. [MLflow](https://tsmatz.github.io/azure-databricks-exercise/exercise10-mlflow.html) (requires ML runtime)
-11. [Orchestration with Azure Data Services](https://tsmatz.github.io/azure-databricks-exercise/exercise11-orchestration.html)
-12. [Lakeflow Spark Declarative Pipelines](https://tsmatz.github.io/azure-databricks-exercise/exercise12-dlt.html)
-13. [Databricks SQL](https://tsmatz.github.io/azure-databricks-exercise/exercise13-sql.html)
+1. [Storage Settings](https://tsmatsuz.github.io/azure-databricks-exercise/exercise01-blob.html)
+2. [Basics of PySpark, Spark Dataframe, and Spark Machine Learning](https://tsmatsuz.github.io/azure-databricks-exercise/exercise02-pyspark-dataframe.html)
+3. [Data Transformation and Spark ML Pipeline](https://tsmatsuz.github.io/azure-databricks-exercise/exercise03-sparkml-pipeline.html)
+4. [Hyper-parameter Tuning](https://tsmatsuz.github.io/azure-databricks-exercise/exercise04-hyperparams-tuning.html)
+5. [MLeap](https://tsmatsuz.github.io/azure-databricks-exercise/exercise05-mleap.html) (requires ML runtime)
+6. [Spark PyTorch Distributor](https://tsmatsuz.github.io/azure-databricks-exercise/exercise06-dnn-distributor.html) (requires ML runtime)
+7. [Structured Streaming (Basic)](https://tsmatsuz.github.io/azure-databricks-exercise/exercise07-structured-streaming.html)
+8. [Structured Streaming with Azure Event Hubs or Kafka](https://tsmatsuz.github.io/azure-databricks-exercise/exercise08-streaming-eventhub.html)
+9. [Delta Lake](https://tsmatsuz.github.io/azure-databricks-exercise/exercise09-databricks-delta.html)
+10. [MLflow](https://tsmatsuz.github.io/azure-databricks-exercise/exercise10-mlflow.html) (requires ML runtime)
+11. [Orchestration with Azure Data Services](https://tsmatsuz.github.io/azure-databricks-exercise/exercise11-orchestration.html)
+12. [Lakeflow Spark Declarative Pipelines](https://tsmatsuz.github.io/azure-databricks-exercise/exercise12-dlt.html)
+13. [Databricks SQL](https://tsmatsuz.github.io/azure-databricks-exercise/exercise13-sql.html)
 
 These exercises focus only on essential learning of data, integration, and primitive ML features - not including generative AI features, such as, building AI agents, AI functions, fine-tuning foundation models, etc. (First commit: Oct 2018)
 
@@ -25,8 +25,8 @@ These exercises focus only on essential learning of data, integration, and primi
 - After the resource is created, launch Databricks workspace UI by clicking "Launch Workspace".
 - Create a compute (cluster) in Databricks UI. (Select "Compute" menu and proceed to create.)<br>
 In the wizard, enable "machine learning" to create ML runtime.
-- Clone this repository on your desktop. (Or download [HandsOn.dbc](https://github.com/tsmatz/azure-databricks-exercise/raw/master/HandsOn.dbc).)<br>
-```git clone https://github.com/tsmatz/azure-databricks-exercise```
+- Clone this repository on your desktop. (Or download [HandsOn.dbc](https://github.com/tsmatsuz/azure-databricks-exercise/raw/master/HandsOn.dbc).)<br>
+```git clone https://github.com/tsmatsuz/azure-databricks-exercise```
 - Import ```HandsOn.dbc``` into your Databricks workspace as follows.
     - Select "Workspace" in Databricks UI.
     - Go to your user folder, and then select "Import".
